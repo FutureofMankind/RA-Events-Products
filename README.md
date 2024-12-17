@@ -1,9 +1,11 @@
 Расположение товаров
 ===
 
+[![Build status](https://ci.appveyor.com/api/projects/status/87f1wqviv0119jr0/branch/main?svg=true)](https://ci.appveyor.com/project/FutureofMankind/ra-events-products/branch/main)
+
 Вам необоходимо сделать приложение для отображения товаров в интернет-магазине. Заказчик хочет, чтобы пользователь мог увидеть товары в виде карточек или в виде списка, в зависимости от того, какое расположение он выберет. 
 
-![cards view](./assets/card_view.png)
+![cards view](pic/card_view.png)
 
 ## Описание проекта
 
@@ -34,7 +36,7 @@
 - из компонента `Store` передать правильную иконку в свойство `icon` компонента `IconSwitch`;
 - в компоненте `Store` отобразить товары в компоненте `CardsView` или `ListView` соответсвенно состоянию компонента `App`.
 
-![list_view](./assets/list_view.png)
+![list_view](pic/list_view.png)
 
 Не забудьте подключить Material Icons:
 ```css
